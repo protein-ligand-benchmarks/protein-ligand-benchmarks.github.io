@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my-application/static/css/main.e9cccf4b.css",
+    "main.js": "/my-application/static/js/main.8b012cbd.js",
+    "static/js/453.2be0869c.chunk.js": "/my-application/static/js/453.2be0869c.chunk.js",
+    "static/media/PyMolmovie.mp4": "/my-application/static/media/PyMolmovie.e8d33884cee206a097fb.mp4",
+    "static/media/Frame 2 (4).png": "/my-application/static/media/Frame 2 (4).bb165f8c2e59b03cf3f7.png",
+    "index.html": "/my-application/index.html",
+    "main.e9cccf4b.css.map": "/my-application/static/css/main.e9cccf4b.css.map",
+    "main.8b012cbd.js.map": "/my-application/static/js/main.8b012cbd.js.map",
+    "453.2be0869c.chunk.js.map": "/my-application/static/js/453.2be0869c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9cccf4b.css",
+    "static/js/main.8b012cbd.js"
+  ]
+}
