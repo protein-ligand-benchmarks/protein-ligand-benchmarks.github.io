@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Protein-ligand benchmarks",
+  "name": "Protein-ligand benchmarks",
   "icons": [
     {
       "src": "favicon.ico",
