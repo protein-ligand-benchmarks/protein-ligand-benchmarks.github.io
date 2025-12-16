@@ -1,0 +1,6 @@
+job: dataset
+dataset: PL-REX_1k
+
+interface: xtb
+method: g-xtb
+gxtb_exe: ...

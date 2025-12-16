@@ -10,7 +10,7 @@ import logo from "./github-mark.png";
 Chart.register(CategoryScale);
 
 const columns = ["name", "category", "description", "references", "code", "percentError", "rawError"];
-const hiddenDatasetIds = ["pl-rex_1k", "s66"];
+const hiddenDatasetIds = ["s66"]; // "pl-rex_1k"
 const hiddenDatasetIdSet = new Set(hiddenDatasetIds.map((id) => id.toLowerCase()));
 
 export default function App() {
