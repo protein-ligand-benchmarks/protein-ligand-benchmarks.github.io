@@ -1,0 +1,7 @@
+{
+	"name":	"PM6-ML",
+	"category": "SQM+ML",
+	"description": "PM6 with ML correction",
+	"references": ["https://doi.org/10.1021/acs.jctc.4c01330"],
+	"code": ["https://github.com/Honza-R/mopac-ml"]
+}

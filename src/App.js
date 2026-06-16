@@ -10,8 +10,11 @@ import logo from "./github-mark.png";
 Chart.register(CategoryScale);
 
 const columns = ["name", "category", "description", "references", "code", "percentError", "rawError"];
-const hiddenDatasetIds = ["pl-rex_1k", "s66"];
+const mainDatasetId = "pla15_h-nod+ccsdtpc-3b"; // For now, it is always some PLA15 dataset
+const hiddenDatasetIds = ["s66", "pl-rex_1k", "pla15_dlpno-ccsdt", "pla15_tz+ccsdtpc", "pla15_h-nod", "pla15_h-nod-3b", "plfrag547_iv+tz+d", "plfrag547_h-nod", "plfrag547_h-nod-3b", "solv-pla15_h-nod", "solv-pla15_h-nod-3b", "solv-plfrag547_h-nod", "solv-plfrag547_h-nod-3b"];
 const hiddenDatasetIdSet = new Set(hiddenDatasetIds.map((id) => id.toLowerCase()));
+const hiddenMethodNames = ["PM6-Allegro-0.21", "PM6-Allegro-0.41"];
+const hiddenMethodNameSet = new Set(hiddenMethodNames.map((name) => name.toLowerCase()));
 
 export default function App() {
   const [datasets, setDatasets] = useState([]);
@@ -65,7 +68,7 @@ export default function App() {
             }
 
             const pla15Dataset = datasetList.find(
-              (dataset) => dataset.id.toLowerCase() === "pla15"
+              (dataset) => dataset.id.toLowerCase() === mainDatasetId.toLowerCase()
             );
             return (pla15Dataset && pla15Dataset.id) || datasetList[0].id;
           });
@@ -79,6 +82,7 @@ export default function App() {
       SQM: "rgba(240, 130, 130, 1)",
       ML: "rgba(160, 221, 241, 1)",
       "SQM+ML": "#86fab6ff",
+      DFT: "rgba(19, 36, 92, 1)",
       default: "#fdfeffff",
     };
   }, []);
@@ -88,9 +92,15 @@ export default function App() {
     [datasets, activeDatasetId]
   );
 
-  const modelData = useMemo(() => activeDataset?.methods ?? [], [activeDataset]);
+  const modelData = useMemo(
+    () =>
+      (activeDataset?.methods ?? []).filter(
+        (method) => !hiddenMethodNameSet.has((method.name || "").toLowerCase())
+      ),
+    [activeDataset]
+  );
   const sortedModelData = useMemo(() => {
-    const categoryOrder = { SQM: 0, ML: 1, "SQM+ML": 2 };
+    const categoryOrder = { SQM: 0, ML: 1, "SQM+ML": 2, DFT: 3 };
     const metricKey = chartMetric === "percent" ? "percentError" : "rawError";
 
     return modelData

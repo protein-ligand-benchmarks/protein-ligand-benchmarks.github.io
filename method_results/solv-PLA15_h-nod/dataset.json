@@ -1,0 +1,17 @@
+{
+  "id": "solv-pla15_h-nod",
+  "label": "solv-PLA15/h-nod",
+  "title": "Solvated PLA15 Protein-ligand interaction energy benchmarks",
+  "chartTitle": "Error of tested methods in the solvated PLA15 data set",
+  "referenceEnergies": {
+    "10GS": -67.969,
+    "2FVD": -46.282,
+    "2OBF": -65.54,
+    "2VW5": -59.023,
+    "2YKI": -64.979,
+    "2ZX6": -71.156,
+    "3G0W": -53.069,
+    "3NOX": -54.359,
+    "3PE2": -52.648
+  }
+}

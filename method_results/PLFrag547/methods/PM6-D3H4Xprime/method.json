@@ -1,0 +1,10 @@
+{
+	"name":	"PM6-D3H4X'",
+	"category": "SQM",
+	"description": "Latest reparametrization of PM6-D3H4X",
+	"references": [
+		"https://doi.org/10.1021/acs.jctc.9b01265",
+		"https://doi.org/10.1039/D2CP01600A"
+	],
+	"code": ["https://github.com/openmopac/mopac"]
+}
