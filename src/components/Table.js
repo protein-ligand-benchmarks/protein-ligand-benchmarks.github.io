@@ -62,7 +62,7 @@ if (sortOn !== null || sortOn !== holder){
     <tbody >
       {rawData.map((row, idx) => (
         <tr key={idx}
-        className={row.category === "SQM" ? "highlight-sqm" : row.category === "ML" ? "highlight-ml" : row.category === "SQM+ML" ? "highlight-sqmml" : ""}
+        className={row.category === "SQM" ? "highlight-sqm" : row.category === "ML" ? "highlight-ml" : row.category === "SQM+ML" ? "highlight-sqmml" : row.category === "DFT" ? "highlight-dft" : ""}
         >
           {columns.map((col) => (
             <td className = {"cell cell"+col}  key={col}>

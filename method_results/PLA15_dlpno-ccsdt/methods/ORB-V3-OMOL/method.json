@@ -1,0 +1,11 @@
+{
+	"name":	"Orb-v3-conservative-omol",
+	"category": "ML",
+	"description": "Orbital material's universal interatomic ML potentials",
+	"references": [
+		"https://doi.org/10.48550/arXiv.2504.06231"
+	],
+	"code": [
+		"https://github.com/orbital-materials/orb-models"
+	]
+}

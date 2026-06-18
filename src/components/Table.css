@@ -90,6 +90,11 @@
   color: #2C8737;
 }
 
+.highlight-dft .cellcategory {
+  /*background-color: #86a8e7 !important; */
+  color: #13245C;
+}
+
 .table tbody tr:last-child .cell {
   border-bottom: none;
 }

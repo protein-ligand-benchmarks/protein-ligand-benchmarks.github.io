@@ -1,0 +1,9 @@
+{
+	"name":	"PM7",
+	"category": "SQM",
+	"description": "NDDO-based semiempirical QM method with built-in corrections",
+	"references": [
+		"https://doi.org/10.1007/s00894-012-1667-x"
+	],
+	"code": ["https://github.com/openmopac/mopac"]
+}

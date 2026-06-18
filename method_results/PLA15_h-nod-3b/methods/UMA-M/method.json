@@ -1,0 +1,12 @@
+{
+	"name":	"UMA-M-1.1",
+	"category": "ML",
+	"description": "Meta's universal ML potential",
+	"references": [
+		"https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/"
+	],
+	"code": [
+		"https://github.com/facebookresearch/fairchem",
+		"https://huggingface.co/facebook/UMA"
+	]
+}

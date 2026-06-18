@@ -1,0 +1,11 @@
+{
+	"name":	"MACE-POLAR-1-S",
+	"category": "ML",
+	"description": "MACE foundation model with explicit long-range electrostatics",
+	"references": [
+		"https://doi.org/10.48550/arXiv.2602.19411"
+	],
+	"code": [
+		"https://github.com/ACEsuit/mace-foundations/releases/tag/mace_polar_1"
+	]
+}

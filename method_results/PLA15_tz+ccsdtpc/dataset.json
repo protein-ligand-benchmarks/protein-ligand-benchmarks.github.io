@@ -1,0 +1,23 @@
+{
+  "id": "pla15_tz+ccsdtpc",
+  "label": "PLA15/tz+ccsdtpc",
+  "title": "PLA15 Protein-ligand interaction energy benchmarks",
+  "chartTitle": "Error of tested methods in the PLA15 data set",
+  "referenceEnergies": {
+    "10GS": -243.554,
+    "2CET": -243.847,
+    "2FVD": -89.178,
+    "2OBF": -194.870,
+    "2P4Y": -155.533,
+    "2VOT": -237.292,
+    "2VW5": -91.187,
+    "2XB8": -174.064,
+    "2YKI": -90.129,
+    "2ZX6": -226.948,
+    "3G0W": -64.880,
+    "3GNW": -73.780,
+    "3NOX": -248.231,
+    "3PE2": -126.919,
+    "4GID": -184.092
+  }
+}

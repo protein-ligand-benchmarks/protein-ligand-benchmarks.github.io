@@ -1,0 +1,11 @@
+{
+	"name":	"PM6-D3H4X",
+	"category": "SQM",
+	"description": "PM6 semiempirical QM method with corrections for non-covalent interactions",
+	"references": [
+		"https://doi.org/10.1007/s00894-007-0233-4",
+		"https://doi.org/10.1021/ct200751e",
+		"https://doi.org/10.1016/j.cplett.2011.03.009"
+	],
+	"code": ["https://github.com/openmopac/mopac"]
+}

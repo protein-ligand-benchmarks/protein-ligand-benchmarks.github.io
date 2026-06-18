@@ -1,0 +1,7 @@
+{
+	"name":	"PM6",
+	"category": "SQM",
+	"description": "NDDO-based semiempirical QM method",
+	"references": ["https://doi.org/10.1007/s00894-007-0233-4"],
+	"code": ["https://github.com/openmopac/mopac"]
+}
