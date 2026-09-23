@@ -1,0 +1,10 @@
+# Interaction energies in kcal/mol
+10GS                     -61.824
+2FVD                     -44.799
+2OBF                     -67.665
+2VW5                     -57.634
+2YKI                     -63.772
+2ZX6                     -75.815
+3G0W                     -47.409
+3NOX                     -58.046
+3PE2                     -43.390

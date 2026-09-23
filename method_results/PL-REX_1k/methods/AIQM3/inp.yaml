@@ -1,0 +1,7 @@
+job: dataset
+dataset: PL-REX_1k
+dataset_select_elements: no_more_than(H,C,N,O,F,S,Cl)
+
+interface: mlatom
+method: mlatom
+mlatom_model: AIQM3

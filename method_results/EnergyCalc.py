@@ -38,19 +38,19 @@ def _dataset_path(dataset_name, subfolder):
     return dataset_dir
 
 
-def _energy_list(dataset_name):
+def _energy_map(dataset_name):
     ple = _collect_energies(_dataset_path(dataset_name, "PL"))
     le = _collect_energies(_dataset_path(dataset_name, "L"))
     pe = _collect_energies(_dataset_path(dataset_name, "P"))
 
     labels = sorted(ple.keys())
-    energy_list = []
+    energy_map = {}
     for label in labels:
         if label not in le or label not in pe:
             raise ValueError(f"Incomplete TorchANI data for '{dataset_name}' entry '{label}'.")
-        energy_list.append(ple[label] - le[label] - pe[label])
-    return energy_list
+        energy_map[label] = ple[label] - le[label] - pe[label]
+    return energy_map
 
 
 def giveEnergy(dataset_name="PLA15"):
-    return _energy_list(dataset_name)
+    return _energy_map(dataset_name)

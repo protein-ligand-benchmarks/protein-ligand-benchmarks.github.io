@@ -1,0 +1,7 @@
+{
+	"name":	"AIMNet2(2025)",
+	"category": "ML",
+	"description": "Aimnet2 trained on B97-3c + improved intermolecular data, ensemble model",
+	"references": ["https://doi.org/10.1039/D4SC08572H"],
+	"code": ["https://github.com/isayevlab/AIMNet2"]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "pla15_h-nod",
+  "label": "PLA15/h-nod",
+  "title": "PLA15 Protein-ligand interaction energy benchmarks",
+  "chartTitle": "Error of tested methods in the PLA15 data set",
+  "referenceEnergies": {
+    "10GS": -249.797,
+    "2FVD": -94.229,
+    "2OBF": -203.008,
+    "2P4Y": -160.403,
+    "2VOT": -244.968,
+    "2VW5": -98.262,
+    "2YKI": -92.247,
+    "2ZX6": -237.337,
+    "3G0W": -66.134,
+    "3GNW": -81.461,
+    "3NOX": -253.575,
+    "3PE2": -128.089
+  }
+}

@@ -1,0 +1,95 @@
+WARNING: Interface nequip is under development and should be used with care:
+         Only basic functionality, no error checks
+WARNING: Keyword "charge" not found in the input, using default value "0".
+        _______  
+       /\______\ 
+      / /      / 
+     / / Cuby /   Dataset calculation
+     \/______/   
+                 
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+WARNING: Keyword "charge" not found in the input, using default value "0".
+==========================================================================================
+name                                             E      Eref     error  error(%)
+------------------------------------------------------------------------------------------
+01 10GS                                   -243.805  -242.583    -1.222    -0.504
+02 2CET                                   -257.144  -247.699    -9.445    -3.813
+03 2FVD                                    -90.949   -88.726    -2.223    -2.506
+04 2OBF                                   -203.288  -199.162    -4.126    -2.072
+05 2P4Y                                   -154.646  -157.143     2.497     1.589
+06 2VOT                                   -250.542  -238.717   -11.825    -4.953
+07 2VW5                                    -97.290   -94.099    -3.191    -3.391
+08 2XB8                                   -173.031  -178.476     5.445     3.051
+09 2YKI                                    -90.291   -92.145     1.854     2.012
+10 2ZX6                                   -245.090  -231.047   -14.043    -6.078
+11 3G0W                                    -60.247   -66.594     6.347     9.531
+12 3GNW                                    -77.529   -77.382    -0.147    -0.190
+13 3NOX                                   -255.128  -244.475   -10.653    -4.358
+14 3PE2                                   -126.583  -127.532     0.949     0.744
+15 4GID                                   -195.777  -190.367    -5.410    -2.842
+==========================================================================================
+RMSE                6.749   kcal/mol
+MUE                 5.292   kcal/mol
+------------------------------------------------------------------------------------------
+MSE                -3.013   kcal/mol
+min               -14.043   kcal/mol
+max                 6.347   kcal/mol
+range              20.391   kcal/mol
+min abs             0.147   kcal/mol
+max abs            14.043   kcal/mol
+==========================================================================================
+RMSE                3.939   %
+MUE                 3.176   %
+MSE                -0.919   %
+min                -6.078   %
+max                 9.531   %
+range              15.609   %
+min abs             0.190   %
+max abs             9.531   %
+------------------------------------------------------------------------------------------
+RMSE/|avg|          4.088   %
+MUE/|avg|           3.206   %
+==========================================================================================
+

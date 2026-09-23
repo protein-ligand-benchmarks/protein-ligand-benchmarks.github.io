@@ -1,0 +1,7 @@
+{
+	"name":	"AIMNet2",
+	"category": "ML",
+	"description": "Aimnet2 trained on wB97M-D3 data, ensemble model",
+	"references": ["https://doi.org/10.1039/D4SC08572H"],
+	"code": ["https://github.com/isayevlab/AIMNet2"]
+}

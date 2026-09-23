@@ -1,0 +1,714 @@
+WARNING: Interface orbital is under development and should be used with care:
+         Only basic functionality, no error checks
+        _______  
+       /\______\ 
+      / /      / 
+     / / Cuby /   Dataset calculation
+     \/______/   
+                 
+W0213 14:04:35.835000 298975 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:06:25.286000 299672 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:07:23.927000 300138 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:08:20.414000 338589 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:09:16.693000 342112 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:10:10.115000 342467 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:11:05.803000 343218 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:11:59.174000 343372 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:12:54.273000 343547 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:13:47.420000 343687 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:14:42.609000 343975 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:15:35.440000 346422 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:16:30.546000 346538 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:17:23.764000 346649 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:18:18.608000 346858 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:19:11.578000 351557 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:20:07.420000 351853 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:21:08.452000 352559 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:22:08.564000 352805 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:23:09.907000 352988 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:24:10.153000 353158 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:25:07.185000 353412 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:26:04.380000 353735 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:27:01.384000 355215 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:27:58.086000 355376 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:28:55.145000 356486 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:29:51.799000 357413 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:30:48.599000 361200 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:31:45.308000 361312 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:32:41.799000 362043 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:34:14.421000 362755 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:35:18.852000 363609 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:36:16.206000 364036 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:37:11.804000 364567 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:38:08.570000 364955 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:39:03.096000 367701 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:39:59.548000 368397 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:40:54.123000 369750 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:41:50.270000 370692 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:42:43.353000 371456 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:43:38.053000 372413 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:44:30.298000 373192 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:45:22.483000 374328 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:46:15.489000 375086 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:47:10.370000 375876 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:48:02.800000 376793 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:48:55.429000 378387 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:49:48.396000 380276 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:50:43.291000 381419 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:51:33.877000 382518 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:52:28.508000 382994 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:53:21.102000 383951 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:54:15.426000 385111 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:55:08.273000 385964 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:56:00.507000 386741 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:56:53.156000 387818 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:57:47.715000 388482 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:58:40.312000 389339 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 14:59:34.920000 391924 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:00:25.547000 393573 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:01:19.833000 394228 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:02:12.437000 395130 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:03:04.682000 396845 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:03:56.643000 398385 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:04:51.002000 399738 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:05:41.392000 400184 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:06:35.057000 403117 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:07:26.970000 404493 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:08:20.859000 405050 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:09:09.932000 407241 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:10:02.887000 407982 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:10:54.354000 409799 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:11:47.232000 411356 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:12:36.482000 411869 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:13:29.563000 412324 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:14:21.114000 412785 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:15:14.516000 413216 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:16:03.750000 414029 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:16:56.703000 414216 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:17:48.591000 415535 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:18:42.349000 415672 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:19:34.122000 417362 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:20:27.843000 418310 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:21:19.843000 419138 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:22:13.209000 419384 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:23:05.573000 419659 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:23:54.410000 419798 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:24:41.529000 419919 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:25:30.606000 420270 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:26:18.108000 420502 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:27:07.415000 420631 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:27:54.715000 420813 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:28:43.869000 420969 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:29:31.185000 422709 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:30:19.698000 423634 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:31:06.958000 423831 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:31:56.077000 423921 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:32:43.431000 424694 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:33:32.593000 424823 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:34:19.898000 424935 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:35:09.056000 425225 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:35:56.509000 425417 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:36:51.006000 425635 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:37:43.525000 425779 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:38:37.902000 425935 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:39:30.276000 427676 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:40:24.039000 428577 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:41:15.673000 428823 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:42:07.791000 428986 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:42:58.383000 429140 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:43:50.672000 429310 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:44:41.110000 429515 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:45:33.603000 429784 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:46:24.217000 430007 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:47:15.856000 430130 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:48:06.170000 430835 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:48:58.713000 432469 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:49:49.089000 433282 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:50:40.714000 435236 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:51:30.173000 435793 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:52:21.622000 436935 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:53:11.516000 437571 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:54:03.658000 438494 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:54:53.983000 439282 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:55:45.841000 440195 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:56:35.737000 441192 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:57:26.986000 442024 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:58:16.394000 442985 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:59:07.892000 445953 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 15:59:57.434000 447330 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:00:49.387000 448951 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:01:39.377000 450031 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:02:30.673000 451898 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:03:20.522000 453064 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:04:11.932000 454370 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:05:01.622000 455528 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:05:53.145000 456651 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:06:42.896000 458358 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:07:34.313000 459023 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:08:23.273000 460444 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:09:14.062000 463036 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:10:02.715000 464221 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:10:53.683000 465963 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:11:42.581000 467084 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:12:33.148000 468102 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:13:22.169000 469531 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:14:12.512000 470332 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:15:01.358000 471478 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:15:52.034000 472969 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:16:41.053000 474044 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:17:31.579000 475210 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:18:20.413000 476476 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:19:11.276000 479371 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:20:00.109000 480469 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:20:50.852000 482300 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:21:39.788000 485890 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:22:30.083000 487111 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:23:19.201000 487800 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:24:09.830000 488447 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:24:58.056000 489347 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:25:48.398000 491482 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:26:36.213000 492624 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:27:25.620000 533396 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:28:13.380000 533784 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:29:03.199000 539757 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:29:50.896000 540464 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:30:40.904000 543989 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:31:29.588000 544437 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:32:19.872000 545240 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:33:08.366000 546012 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:33:59.867000 547807 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:34:47.985000 548019 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:35:38.219000 548265 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:36:27.862000 548338 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:37:19.180000 549579 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:38:08.870000 549807 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:39:00.055000 551287 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:39:49.534000 551824 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:40:41.745000 553401 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:41:32.736000 554196 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:42:25.919000 554535 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:43:17.049000 554723 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:44:09.836000 554852 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:45:01.308000 554934 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:45:54.294000 555368 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:46:45.660000 555535 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:47:37.659000 555745 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:48:23.812000 556010 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:49:12.371000 557666 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:49:59.222000 557874 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:50:47.173000 558819 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:51:34.431000 558942 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:52:22.547000 559204 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:53:09.260000 559311 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:53:58.221000 559506 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:54:43.811000 559767 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:55:31.889000 560050 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:56:21.248000 560359 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:57:10.917000 560655 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:57:59.998000 560736 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:58:50.113000 561175 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 16:59:38.797000 563866 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:00:29.857000 564644 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:01:19.342000 565034 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:02:09.160000 565241 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:02:58.401000 565932 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:03:48.624000 566188 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:04:37.997000 566355 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:05:29.094000 567304 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:06:17.365000 567704 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:07:07.728000 567750 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:07:55.680000 567940 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:08:44.324000 568237 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:09:31.781000 569982 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:10:20.310000 570734 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:11:07.426000 571062 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:11:56.163000 571223 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:12:42.527000 571537 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:13:31.352000 571604 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:14:17.212000 571892 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:15:05.857000 571958 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:15:51.718000 572374 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:16:39.061000 572596 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:17:26.028000 572659 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:18:13.903000 572830 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:19:00.020000 574215 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:19:47.904000 574994 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:20:32.251000 575751 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:21:19.156000 575964 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:22:03.812000 576251 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:22:50.270000 576421 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:23:36.377000 576650 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:24:22.728000 576888 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:25:08.250000 576968 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:25:54.783000 577313 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:26:39.624000 577622 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:27:26.814000 577759 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:28:11.310000 577988 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:28:58.065000 579219 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:29:42.309000 579836 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:30:29.330000 580657 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:31:14.060000 581122 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:32:00.864000 581251 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:32:48.486000 582007 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:33:37.756000 582073 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:34:26.046000 582253 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:35:15.067000 582587 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:36:02.240000 582925 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:36:51.434000 583090 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:37:37.356000 583119 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:38:26.907000 583395 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:39:14.448000 585206 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:40:03.544000 588309 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:40:50.311000 590544 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:41:37.627000 590751 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:42:24.453000 590847 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:43:10.939000 591041 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:43:56.325000 591146 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:44:42.834000 591428 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:45:27.481000 591629 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:46:13.672000 592606 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:46:58.699000 592869 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:47:44.507000 593005 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:48:29.305000 593296 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:49:15.413000 594981 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:50:00.758000 595119 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:50:46.158000 596068 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:51:30.393000 596342 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:52:16.947000 596614 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:53:00.466000 596744 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:53:44.987000 596927 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:54:27.909000 597133 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:55:12.777000 597260 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:55:56.252000 597603 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:56:40.220000 598086 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:57:22.778000 598210 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:58:06.995000 598404 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:58:51.690000 598932 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 17:59:35.563000 600447 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:00:17.987000 601195 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:01:02.714000 601505 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:01:46.503000 601718 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:02:31.277000 602237 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:03:13.912000 602782 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:03:58.716000 602823 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:04:40.515000 605285 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:05:23.648000 605561 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:06:05.880000 605959 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:06:49.625000 606052 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:07:31.408000 608604 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:08:13.790000 609314 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:08:54.882000 610468 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:09:37.522000 611138 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:10:19.449000 611877 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:11:02.617000 613171 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:11:44.557000 613293 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:12:28.115000 613466 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:13:10.391000 613601 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:13:54.398000 613754 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:14:36.748000 613971 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:15:20.568000 614072 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:16:02.468000 614419 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:16:45.555000 614634 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:17:27.289000 616020 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:18:10.119000 616627 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:18:51.542000 617824 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:19:33.969000 619121 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:20:14.956000 619820 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:20:57.214000 620162 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:21:38.161000 620455 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:22:20.314000 620591 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:22:59.083000 620706 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:23:39.986000 623712 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:24:19.396000 623812 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:25:00.790000 623895 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:25:40.227000 624068 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:26:20.947000 624471 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:27:00.092000 624919 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:27:40.082000 625887 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:28:18.784000 625985 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:28:58.765000 627193 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:29:37.565000 627751 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:30:17.514000 628492 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:30:56.520000 628576 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:31:36.339000 628821 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:32:15.109000 628951 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:32:55.134000 629642 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:33:33.835000 629715 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:34:13.712000 629784 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:34:31.186000 629841 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:34:48.994000 629892 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:35:06.119000 629926 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:35:25.230000 629981 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:35:42.732000 630022 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:36:00.163000 630233 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:36:17.188000 630279 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:36:36.161000 630321 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:36:53.448000 630419 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:37:10.831000 630460 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:37:27.804000 630510 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:37:46.845000 630544 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:38:04.055000 630582 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:38:21.502000 630645 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:38:38.560000 630703 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:38:57.668000 631877 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:39:14.854000 632476 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:39:32.025000 632514 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:39:48.906000 632556 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:40:07.822000 632590 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:40:24.903000 633316 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:40:41.966000 633367 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:40:58.680000 633398 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:41:17.465000 633611 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:41:34.566000 633653 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:41:51.568000 633695 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:42:08.413000 633777 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:42:27.064000 633833 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:42:44.167000 633892 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:43:01.153000 633927 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:43:18.005000 633973 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:43:36.693000 634012 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:43:53.969000 634051 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:44:11.101000 634086 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:44:27.808000 634152 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:44:46.628000 634203 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:45:03.755000 634233 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:45:20.644000 634295 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:45:37.285000 634334 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:45:55.983000 634378 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:46:12.698000 634593 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:46:29.613000 634633 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:46:46.198000 634680 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:47:04.967000 634722 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:47:21.971000 634820 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:47:38.878000 634859 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:47:55.573000 634898 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:48:14.246000 634926 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:48:30.923000 634996 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:48:47.952000 635205 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:49:04.393000 636579 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:49:23.329000 636746 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:49:40.112000 636786 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:49:56.656000 636824 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:50:13.224000 636936 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:50:31.388000 637573 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:50:48.002000 637615 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:51:04.835000 637676 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:51:20.890000 637883 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:51:38.992000 637917 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:51:55.437000 637951 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:52:12.018000 637990 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:52:28.166000 638091 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:52:46.149000 638131 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:53:02.339000 638190 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:53:18.399000 638238 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:53:34.111000 638278 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:53:51.901000 638316 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:54:08.074000 638354 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:54:24.126000 638398 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:54:40.104000 638443 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:54:57.842000 638492 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:55:13.833000 638554 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:55:29.953000 638592 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:55:45.648000 638630 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:56:03.566000 638668 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:56:19.753000 639031 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:56:35.859000 639075 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:56:51.739000 639109 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:57:09.585000 639164 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:57:25.776000 639209 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:57:41.896000 639303 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:57:57.559000 639926 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:58:15.328000 640550 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:58:31.320000 640594 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:58:47.505000 640751 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:59:03.335000 642171 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:59:20.862000 642339 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:59:36.883000 642369 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 18:59:53.121000 642986 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:00:08.699000 643613 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:00:26.291000 644314 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:00:42.256000 644364 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:00:58.122000 644398 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:01:13.763000 644617 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:01:31.368000 644654 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:01:47.423000 644696 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:02:03.452000 644735 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:02:19.318000 645019 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:02:36.989000 645432 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:02:52.897000 645518 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:03:08.933000 645574 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:03:24.685000 646220 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:03:42.290000 646368 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:03:58.188000 646415 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:04:14.256000 646478 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:04:29.842000 646508 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:04:47.382000 646556 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:05:03.287000 646616 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:05:19.303000 646687 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:05:34.822000 646715 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:05:52.356000 646749 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:06:08.362000 646894 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:06:24.557000 646996 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:06:40.233000 647073 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:06:58.276000 647727 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:07:14.773000 648374 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:07:31.679000 648410 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:07:47.833000 648445 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:08:05.869000 648542 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:08:22.073000 648621 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:08:38.213000 648668 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:08:54.088000 649794 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:09:11.646000 650333 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:09:27.807000 650410 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:09:44.180000 650452 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:09:59.780000 650490 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:10:17.605000 651069 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:10:33.611000 651236 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:10:49.760000 651277 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:11:05.603000 651330 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:11:23.291000 651556 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:11:39.594000 651593 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:11:55.963000 651627 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:12:12.134000 651659 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:12:29.726000 651703 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:12:45.846000 651774 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:13:01.936000 651820 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:13:17.862000 651922 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:13:35.628000 651958 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:13:51.768000 652001 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:14:08.099000 652062 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:14:23.829000 652104 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:14:41.470000 652143 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:14:57.422000 652182 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:15:13.603000 652247 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:15:29.389000 652303 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:15:47.123000 652354 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:16:03.361000 652396 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:16:19.643000 652608 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:16:35.410000 652645 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:16:53.141000 652694 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:17:09.113000 652733 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:17:25.198000 652803 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:17:41.308000 652865 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:17:59.290000 652911 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:18:15.619000 652977 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:18:31.894000 653062 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:18:47.655000 653296 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:19:05.240000 654668 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:19:21.540000 654873 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:19:37.931000 654905 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+W0213 19:19:53.581000 654950 /auto/vestec1-elixir/home/tobiasma/miniconda3/envs/orb_env/lib/python3.10/site-packages/torch/utils/cpp_extension.py:118] [0/0_2] No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'
+==========================================================================================
+name                                             E      Eref     error  error(%)
+------------------------------------------------------------------------------------------
+001-CA2 / 5NXG                            -204.572  -211.986     7.414     3.497
+001-CA2 / 5NXI                            -206.464  -212.762     6.298     2.960
+001-CA2 / 5NXO                            -202.500  -207.567     5.066     2.441
+001-CA2 / 5NXP                            -217.003  -220.995     3.992     1.806
+001-CA2 / 5NXV                            -202.861  -209.193     6.333     3.027
+001-CA2 / 5NXW                            -206.284  -209.313     3.029     1.447
+001-CA2 / 5NY1                            -207.545  -211.771     4.226     1.995
+001-CA2 / 5NY3                            -207.905  -209.831     1.926     0.918
+001-CA2 / 5NY6                            -212.950  -215.493     2.543     1.180
+001-CA2 / 5NYA                            -195.970  -201.861     5.891     2.918
+002-HIV-PR / 1HSG                         -167.549  -159.436    -8.114    -5.089
+002-HIV-PR / 1HXW                         -157.280  -164.946     7.666     4.648
+002-HIV-PR / 1IZH                         -179.080  -185.506     6.426     3.464
+002-HIV-PR / 1T3R                         -126.563  -142.718    16.155    11.320
+002-HIV-PR / 2Q54                         -142.417  -148.952     6.535     4.387
+002-HIV-PR / 2Q55                         -153.317  -158.114     4.798     3.034
+002-HIV-PR / 2Q5K                         -147.011  -154.373     7.362     4.769
+002-HIV-PR / 3EKX                         -139.354  -147.017     7.663     5.212
+002-HIV-PR / 3EL1                         -168.000  -172.163     4.163     2.418
+002-HIV-PR / 3NU3                         -121.428  -134.550    13.122     9.752
+002-HIV-PR / 3OXC                         -178.989  -168.252   -10.738    -6.382
+002-HIV-PR / 5HVP                         -177.638  -177.938     0.300     0.169
+002-HIV-PR / model13a                     -149.623  -156.858     7.234     4.612
+002-HIV-PR / model13c                     -143.588  -149.031     5.443     3.652
+002-HIV-PR / model13d                     -141.516  -150.288     8.772     5.837
+002-HIV-PR / model16a                     -139.624  -148.081     8.457     5.711
+002-HIV-PR / model16e                     -133.499  -141.468     7.969     5.633
+002-HIV-PR / model16f                     -142.597  -150.523     7.926     5.266
+002-HIV-PR / model22a                     -135.391  -147.097    11.706     7.958
+002-HIV-PR / model22d                     -144.849  -151.568     6.719     4.433
+002-HIV-PR / model23a                     -132.958  -140.381     7.423     5.287
+002-HIV-PR / model25d                     -137.733  -147.422     9.689     6.572
+003-CK2 / 1F0Q                             -31.393   -41.139     9.746    23.691
+003-CK2 / 1J91                             -38.915   -38.947     0.032     0.083
+003-CK2 / 1M2P                             -38.194   -45.809     7.615    16.623
+003-CK2 / 1M2Q                             -32.924   -49.296    16.372    33.211
+003-CK2 / 1M2R                             -34.546   -51.230    16.684    32.567
+003-CK2 / 1ZOE                             -48.283   -45.791    -2.492    -5.442
+003-CK2 / 1ZOG                             -43.959   -42.556    -1.403    -3.298
+003-CK2 / 1ZOH                             -52.607   -51.919    -0.688    -1.325
+003-CK2 / 2OXD                             -39.635   -38.405    -1.230    -3.203
+003-CK2 / 2OXX                             -44.680   -42.194    -2.486    -5.892
+003-CK2 / 2OXY                             -39.635   -36.497    -3.138    -8.599
+003-CK2 / 3KXG                             -43.239   -42.526    -0.712    -1.675
+003-CK2 / 3KXH                            -124.671  -134.643     9.972     7.406
+003-CK2 / 3KXM                             -67.020   -58.057    -8.963   -15.438
+003-CK2 / 3KXN                             -40.896   -35.022    -5.875   -16.774
+003-CK2 / 3PVG                             -72.064   -75.017     2.953     3.936
+004-AR / 1US0                             -137.643  -116.681   -20.962   -17.965
+004-AR / 2IKG                             -160.793  -135.387   -25.406   -18.766
+004-AR / 2IKH                             -149.353  -121.544   -27.809   -22.880
+004-AR / 2IKI                             -143.588  -122.467   -21.121   -17.246
+004-AR / 2IKJ                             -147.642  -125.206   -22.436   -17.919
+004-AR / 4LAU                             -142.687  -123.618   -19.069   -15.426
+004-AR / 4LAZ                             -142.597  -129.806   -12.791    -9.854
+004-AR / 4LB3                             -146.290  -130.783   -15.507   -11.857
+004-AR / 4LB4                             -150.254  -126.052   -24.202   -19.200
+004-AR / 4LBR                             -147.461  -133.005   -14.456   -10.869
+004-AR / 4LBS                             -148.092  -126.029   -22.063   -17.506
+004-AR / 4QXI                             -154.488  -134.458   -20.030   -14.896
+004-AR / 4XZH                             -151.965  -127.370   -24.596   -19.310
+004-AR / 4XZI                             -131.878  -124.183    -7.695    -6.196
+005-Cath-D / 6QBG                         -144.849  -141.732    -3.117    -2.199
+005-Cath-D / 6QBH                         -144.489  -134.751    -9.738    -7.226
+005-Cath-D / 6QCB                         -147.101  -138.797    -8.304    -5.983
+005-Cath-D / model08                      -143.228  -134.845    -8.383    -6.217
+005-Cath-D / model22                      -148.452  -139.915    -8.537    -6.102
+005-Cath-D / model24                      -144.399  -133.666   -10.733    -8.030
+005-Cath-D / model25                      -158.181  -149.974    -8.207    -5.473
+005-Cath-D / model31                      -146.020  -136.938    -9.082    -6.633
+005-Cath-D / model35                      -143.948  -137.815    -6.134    -4.451
+005-Cath-D / model36                      -122.419  -112.987    -9.432    -8.348
+006-BACE1 / 5QCO                            71.524   -52.470   123.993   236.315
+006-BACE1 / 5QCP                            78.370   -53.010   131.380   247.839
+006-BACE1 / 5QCR                          -156.830  -132.453   -24.377   -18.404
+006-BACE1 / 5QCT                          -166.288  -138.476   -27.812   -20.085
+006-BACE1 / 5QCU                          -164.396  -134.121   -30.276   -22.573
+006-BACE1 / 5QCV                            75.487   -43.669   119.156   272.863
+006-BACE1 / 5QCX                            79.361   -47.485   126.846   267.128
+006-BACE1 / 5QCY                            50.355   -63.325   113.680   179.519
+006-BACE1 / 5QCZ                            86.837   -42.338   129.176   305.104
+006-BACE1 / 5QD0                            78.100   -51.837   129.937   250.663
+006-BACE1 / 5QD1                            86.747   -45.141   131.888   292.170
+006-BACE1 / 5QD2                            85.216   -47.054   132.270   281.103
+006-BACE1 / 5QD3                            82.694   -45.228   127.922   282.838
+006-BACE1 / 5QD5                            80.532   -48.822   129.354   264.949
+006-BACE1 / 5QD9                            65.939   -56.152   122.091   217.429
+006-BACE1 / 5QDA                            90.711   -46.774   137.485   293.933
+007-JAK1 / 4E4L                            -83.324   -85.629     2.305     2.692
+007-JAK1 / 4E4N                            -90.125   -90.019    -0.106    -0.118
+007-JAK1 / 4E5W                           -115.933  -112.641    -3.292    -2.922
+007-JAK1 / 4EHZ                           -138.859  -146.744     7.885     5.373
+007-JAK1 / 4EI4                            -81.072   -81.834     0.762     0.931
+007-JAK1 / 4FK6                           -102.601  -104.602     2.001     1.913
+007-JAK1 / 4I5C                            -89.855   -88.563    -1.292    -1.459
+007-JAK1 / 4IVB                            -87.243   -87.282     0.039     0.045
+007-JAK1 / 4IVC                           -103.412  -104.103     0.690     0.663
+007-JAK1 / 4IVD                           -106.925  -107.100     0.175     0.163
+007-JAK1 / 4K6Z                            -90.441   -92.596     2.155     2.328
+007-JAK1 / 4K77                            -62.786   -64.250     1.464     2.278
+008-Trypsin / 1K1I                        -180.070  -199.042    18.971     9.531
+008-Trypsin / 1K1J                        -177.278  -197.068    19.790    10.042
+008-Trypsin / 1K1L                        -176.647  -194.468    17.820     9.164
+008-Trypsin / 1K1M                        -178.539  -194.773    16.234     8.335
+008-Trypsin / 1K1N                        -136.922  -146.330     9.408     6.429
+008-Trypsin / 2ZHD                        -216.373  -223.671     7.298     3.263
+008-Trypsin / 2ZQ2                        -212.860  -222.638     9.778     4.392
+008-Trypsin / 3LJJ                        -209.977  -220.327    10.350     4.698
+008-Trypsin / 3LJO                        -208.266  -218.065     9.800     4.494
+008-Trypsin / 5MNG                        -127.373  -140.649    13.275     9.439
+008-Trypsin / 5MO2                        -119.582  -133.110    13.528    10.163
+008-Trypsin / 6SY3                        -180.701  -188.975     8.274     4.378
+008-Trypsin / 6T0M                        -214.481  -221.793     7.312     3.297
+008-Trypsin / 6T0P                        -214.346  -222.309     7.963     3.582
+008-Trypsin / 6T5W                        -195.249  -203.253     8.004     3.938
+009-CDK2 / 3QQK                            -38.915   -61.680    22.765    36.909
+009-CDK2 / 3QTQ                            -49.139   -72.420    23.281    32.147
+009-CDK2 / 3QTR                            -44.229   -68.080    23.851    35.033
+009-CDK2 / 3QTS                            -49.184   -74.760    25.576    34.211
+009-CDK2 / 3QTU                           -116.744  -136.080    19.336    14.209
+009-CDK2 / 3QTW                            -59.453   -79.690    20.237    25.395
+009-CDK2 / 3QTX                            -81.793  -110.260    28.467    25.818
+009-CDK2 / 3QTZ                            -74.406  -101.400    26.994    26.621
+009-CDK2 / 3QU0                            -85.216  -108.200    22.984    21.242
+009-CDK2 / 3QXP                            -86.117  -112.610    26.493    23.527
+009-CDK2 / 3R8U                            -45.761   -69.770    24.009    34.412
+009-CDK2 / 3R8V                            -43.689   -64.550    20.861    32.318
+009-CDK2 / 3R8Z                            -32.789   -55.730    22.941    41.164
+009-CDK2 / 3R9D                            -97.107  -112.600    15.493    13.760
+009-CDK2 / 3R9N                            -52.877   -68.240    15.363    22.513
+009-CDK2 / 3RAH                            -56.751   -74.470    17.719    23.794
+009-CDK2 / 3RAK                            -71.434   -97.000    25.566    26.357
+009-CDK2 / 3RAL                            -76.568  -105.740    29.172    27.588
+009-CDK2 / 3RJC                            -49.454   -67.770    18.316    27.027
+009-CDK2 / 3RK5                           -109.718  -146.140    36.422    24.923
+009-CDK2 / 3RK7                            -71.704   -92.550    20.846    22.524
+009-CDK2 / 3RK9                            -50.940   -72.320    21.380    29.563
+009-CDK2 / 3RKB                            -53.868   -72.210    18.342    25.401
+009-CDK2 / 3RMF                            -76.118  -103.770    27.652    26.648
+009-CDK2 / 3RNI                            -75.037   -95.570    20.533    21.485
+009-CDK2 / 3RPV                            -78.280  -105.500    27.220    25.801
+009-CDK2 / 3RPY                            -75.217   -84.740     9.523    11.238
+009-CDK2 / 3S00                            -45.851   -64.690    18.839    29.122
+009-CDK2 / 3S0O                            -48.328   -64.210    15.882    24.734
+009-CDK2 / 3S1H                            -73.686  -103.980    30.294    29.135
+009-CDK2 / 3SQQ                            -74.046  -101.630    27.584    27.142
+010-MMP12 / 3EHX                          -122.419  -128.764     6.345     4.927
+010-MMP12 / 3EHY                          -105.844  -112.893     7.049     6.244
+010-MMP12 / 3F15                          -127.914  -133.428     5.514     4.132
+010-MMP12 / 3F16                          -120.798  -129.731     8.933     6.886
+010-MMP12 / 3F17                          -122.869  -132.057     9.188     6.957
+010-MMP12 / 3F18                          -128.094  -133.044     4.950     3.720
+010-MMP12 / 3F19                          -115.032  -119.632     4.600     3.845
+010-MMP12 / 3F1A                          -114.402  -118.100     3.698     3.131
+010-MMP12 / 3LK8                          -116.204  -123.865     7.661     6.185
+010-MMP12 / 3N2U                          -142.867  -154.459    11.592     7.505
+010-MMP12 / 3N2V                          -122.779  -131.516     8.736     6.643
+010-MMP12 / 3NX7                          -119.446  -126.899     7.452     5.873
+010-MMP12 / 3RTS                          -117.915  -125.882     7.966     6.329
+010-MMP12 / 3RTT                          -118.636  -126.266     7.630     6.043
+010-MMP12 / 4GUY                          -123.500  -134.390    10.890     8.103
+010-MMP12 / 5LAB                          -121.428  -126.075     4.647     3.686
+010-MMP12 / 6RD0                           -63.011   -72.888     9.877    13.551
+010-MMP12 / 6RLY                           -53.733   -60.709     6.976    11.491
+==========================================================================================
+RMSE               38.519   kcal/mol
+MUE                21.015   kcal/mol
+------------------------------------------------------------------------------------------
+MSE                15.006   kcal/mol
+min               -30.276   kcal/mol
+max               137.485   kcal/mol
+range             167.761   kcal/mol
+min abs             0.032   kcal/mol
+max abs           137.485   kcal/mol
+==========================================================================================
+RMSE               75.468   %
+MUE                31.119   %
+MSE                26.006   %
+min               -22.880   %
+max               305.104   %
+range             327.985   %
+min abs             0.045   %
+max abs           305.104   %
+------------------------------------------------------------------------------------------
+RMSE/|avg|         32.307   %
+MUE/|avg|          17.626   %
+==========================================================================================
+Statistics for groups:
+001-CA2        (10) RMSE      4.982   MSE       4.672   kcal/mol
+002-HIV-PR     (22) RMSE      8.524   MSE       6.212   kcal/mol
+003-CK2        (16) RMSE      7.702   MSE       2.274   kcal/mol
+004-AR         (14) RMSE     20.567   MSE     -19.867   kcal/mol
+005-Cath-D     (10) RMSE      8.416   MSE      -8.167   kcal/mol
+006-BACE1      (16) RMSE    115.514   MSE      98.295   kcal/mol
+007-JAK1       (12) RMSE      2.767   MSE       1.066   kcal/mol
+008-Trypsin    (15) RMSE     12.601   MSE      11.854   kcal/mol
+009-CDK2       (31) RMSE     23.323   MSE      22.708   kcal/mol
+010-MMP12      (18) RMSE      7.735   MSE       7.428   kcal/mol
+--------------------------------------------------------------------------------
+001-CA2        RMSE/|avg|     2.36 %
+002-HIV-PR     RMSE/|avg|     5.52 %
+003-CK2        RMSE/|avg|     14.86 %
+004-AR         RMSE/|avg|     16.21 %
+005-Cath-D     RMSE/|avg|     6.18 %
+006-BACE1      RMSE/|avg|     176.30 %
+007-JAK1       RMSE/|avg|     2.85 %
+008-Trypsin    RMSE/|avg|     6.46 %
+009-CDK2       RMSE/|avg|     26.31 %
+010-MMP12      RMSE/|avg|     6.36 %
+==========================================================================================
+

@@ -1,0 +1,7 @@
+{
+	"name":	"GFN2-xTB",
+	"category": "SQM",
+	"description": "Extended semiempirical tight-binding model",
+	"references": ["https://doi.org/10.1021/acs.jctc.8b01176"],
+	"code": ["https://github.com/grimme-lab/xtb"]
+}

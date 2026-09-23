@@ -1,0 +1,11 @@
+{
+    "name": "PM6-Allegro-0.22-solv",
+    "category": "SQM+ML",
+    "description": "PM6-COSMO with ML correction",
+    "references": [
+        "https://google.com/"
+    ],
+    "code": [
+        "https://github.com/tobiasmarek/nequip-allegro-delta/"
+    ]
+}

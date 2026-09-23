@@ -1,0 +1,6 @@
+job: dataset
+dataset: PL-REX_1k
+
+interface: fairchem
+method: fairchem
+fairchem_model: ...
