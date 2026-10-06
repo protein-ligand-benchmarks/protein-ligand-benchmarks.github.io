@@ -150,6 +150,10 @@ body html {
   text-decoration: underline;
 }
 
+.chart-export-links {
+  margin: 4px 0 14px;
+}
+
 .Table {
   transform: translateY(20px);
   display: flex;

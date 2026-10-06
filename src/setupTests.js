@@ -8,9 +8,32 @@ import 'jest-canvas-mock';
 
 // src/setupTests.js
 
-jest.mock('react-chartjs-2', () => ({
-  Bar: () => null
-}));
+jest.mock('react-chartjs-2', () => {
+  const React = require('react');
+
+  return {
+    Bar: React.forwardRef(function MockBar({ data, options }, ref) {
+      const canvasRef = React.useRef(null);
+
+      React.useImperativeHandle(ref, () => ({
+        get canvas() {
+          return canvasRef.current;
+        },
+        config: {
+          type: "bar",
+          data,
+          options,
+        },
+      }));
+
+      React.useEffect(() => {
+        options?.animation?.onComplete?.();
+      }, [options]);
+
+      return React.createElement('canvas', { ref: canvasRef });
+    }),
+  };
+});
 
 HTMLCanvasElement.prototype.getContext = () => {
   return {
