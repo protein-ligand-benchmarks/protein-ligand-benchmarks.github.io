@@ -1,7 +1,7 @@
 {
   "id": "solv-plfrag547_h-nod",
   "label": "solv-PLFrag547/DFT-h-nod",
-  "title": "Solvated PLFrag547 Protein-ligand fragments interaction energies",
+  "title": "Solvated PLFrag547 P-L fragments interaction energies",
   "chartTitle": "Error of tested methods in the solvated PLFrag547/DFT data set",
   "referenceEnergies": {
     "10GS_01_bbn": -0.348,

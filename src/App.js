@@ -11,9 +11,9 @@ Chart.register(CategoryScale);
 
 const columns = ["name", "category", "description", "references", "code", "percentError", "rawError"];
 const mainDatasetId = "pla15_h-nod+ccsdtpc-3b"; // For now, it is always some PLA15 dataset
-const hiddenDatasetIds = ["s66", "pl-rex_1k", "pla15_dlpno-ccsdt", "pla15_tz+ccsdtpc", "pla15_h-nod", "pla15_h-nod-3b", "plfrag547_iv+tz+d", "plfrag547_h-nod", "plfrag547_h-nod-3b", "solv-pla15_h-nod", "solv-pla15_h-nod-3b", "solv-plfrag547_h-nod", "solv-plfrag547_h-nod-3b"];
+const hiddenDatasetIds = ["pla15_dlpno-ccsdt", "pla15_h-nod-3b", "plfrag547_iv+tz+d", "plfrag547_h-nod", "plfrag547_h-nod-3b", "solv-pla15_h-nod-3b", "solv-plfrag547_h-nod-3b", "pl-rex_1k", "pla15_tz+ccsdtpc", "pla15_h-nod", "solv-pla15_h-nod", "solv-plfrag547_h-nod", "s66"];
 const hiddenDatasetIdSet = new Set(hiddenDatasetIds.map((id) => id.toLowerCase()));
-const hiddenMethodNames = ["PM6-Allegro-0.21", "PM6-Allegro-0.41"];
+const hiddenMethodNames = ["UBio-MolFM-v1", "UBio-MolFM-v1p5", "PM6-Allegro-0.41m", "PM6-Allegro-0.41", "PM6-Allegro-0.21"] //, "UMA-S-1"
 const hiddenMethodNameSet = new Set(hiddenMethodNames.map((name) => name.toLowerCase()));
 
 export default function App() {
@@ -180,6 +180,14 @@ export default function App() {
 
   const headerTitle =
     activeDataset?.title || "Protein-ligand interaction energy benchmarks";
+  const chartDownloadBaseName = [
+    activeDatasetId || "benchmark",
+    chartMetric === "raw" ? "kcal-mol" : "percent",
+  ]
+    .join("-")
+    .toLowerCase()
+    .replace(/[^a-z0-9._-]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 
   return (
     <div className="App">
@@ -225,30 +233,29 @@ export default function App() {
               chartData={chartData}
               options={options}
               title={activeDataset?.chartTitle}
-            />
-          </div>
-          <div className="buttonContainer">
-            The Mean Unsigned Error can be displayed as{" "}
-            <button
-              className="buttonP"
-              onClick={() => setChartMetric("percent")}
-              disabled={chartMetric === "percent"}
+              downloadBaseName={chartDownloadBaseName}
             >
-              percentage of the interaction energy
-            </button>{" "}
-            or in{" "}
-            <button
-              className="buttonP"
-              onClick={() => setChartMetric("raw")}
-              disabled={chartMetric === "raw"}
-            >
-              kcal/mol
-            </button>
+              <div className="buttonContainer">
+                The Mean Unsigned Error can be displayed as{" "}
+                <button
+                  className="buttonP"
+                  onClick={() => setChartMetric("percent")}
+                  disabled={chartMetric === "percent"}
+                >
+                  percentage of the interaction energy
+                </button>{" "}
+                or in{" "}
+                <button
+                  className="buttonP"
+                  onClick={() => setChartMetric("raw")}
+                  disabled={chartMetric === "raw"}
+                >
+                  kcal/mol
+                </button>
+              </div>
+            </BarChart>
           </div>
           <div className="Table">
-            <div className="table-note-text">
-              <br /> *Please select either accuracy or category to sort by.*
-            </div>
             <br />
             <div>
               <div className={`box ${isAnimating ? "animate" : ""}`}>

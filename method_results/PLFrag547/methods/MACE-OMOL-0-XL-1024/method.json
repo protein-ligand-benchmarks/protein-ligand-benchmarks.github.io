@@ -1,0 +1,11 @@
+{
+	"name":	"MACE-OMOL-0-XL-1024",
+	"category": "ML",
+	"description": "MACE foundation model trained on OMol dataset",
+	"references": [
+		"https://doi.org/10.48550/arXiv.2510.25380"
+	],
+	"code": [
+		"https://github.com/ACEsuit/mace-foundations/releases#release-mace_omol_0"
+	]
+}

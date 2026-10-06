@@ -1,0 +1,55 @@
+WARNING: Interface mlip is under development and should be used with care:
+         Manager-only Ruby interface with persistent Python workers
+        _______  
+       /\______\ 
+      / /      / 
+     / / Cuby /   Dataset calculation
+     \/______/   
+                 
+/storage/praha1/home/tobiasma/miniconda3/envs/mace/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/auto/vestec1-elixir/home/tobiasma/rezac-lab/mace/mace/calculators/mace.py:207: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+WARNING:root:No dtype selected, switching to float64 to match model dtype.
+==========================================================================================
+name                                             E      Eref     error  error(%)
+------------------------------------------------------------------------------------------
+01 10GS                                   -273.663  -242.583   -31.080   -12.812
+02 2CET                                   -253.990  -247.699    -6.291    -2.540
+03 2FVD                                   -102.958   -88.726   -14.232   -16.040
+04 2OBF                                   -218.353  -199.162   -19.191    -9.636
+05 2P4Y                                   -104.311  -157.143    52.832    33.621
+06 2VOT                                   -249.049  -238.717   -10.332    -4.328
+07 2VW5                                   -105.277   -94.099   -11.178   -11.879
+08 2XB8                                    -98.958  -178.476    79.518    44.554
+09 2YKI                                   -101.391   -92.145    -9.246   -10.034
+10 2ZX6                                   -243.063  -231.047   -12.016    -5.200
+11 3G0W                                     -8.361   -66.594    58.233    87.445
+12 3GNW                                    -35.834   -77.382    41.548    53.692
+13 3NOX                                   -255.538  -244.475   -11.063    -4.525
+14 3PE2                                   -128.720  -127.532    -1.188    -0.932
+15 4GID                                    -89.791  -190.367   100.576    52.833
+==========================================================================================
+RMSE               42.039   kcal/mol
+MUE                30.568   kcal/mol
+------------------------------------------------------------------------------------------
+MSE                13.793   kcal/mol
+min               -31.080   kcal/mol
+max               100.576   kcal/mol
+range             131.655   kcal/mol
+min abs             1.188   kcal/mol
+max abs           100.576   kcal/mol
+==========================================================================================
+RMSE               33.927   %
+MUE                23.338   %
+MSE                12.948   %
+min               -16.040   %
+max                87.445   %
+range             103.485   %
+min abs             0.932   %
+max abs            87.445   %
+------------------------------------------------------------------------------------------
+RMSE/|avg|         25.466   %
+MUE/|avg|          18.518   %
+==========================================================================================
+

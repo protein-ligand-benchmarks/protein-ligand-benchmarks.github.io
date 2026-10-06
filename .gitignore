@@ -4,3 +4,7 @@ build
 # Python generated files
 __pycache__/
 *.pyc
+
+# Local IDE/tool files
+.codex
+.claude

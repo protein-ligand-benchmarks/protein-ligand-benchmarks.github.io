@@ -1,0 +1,115 @@
+WARNING: Interface mlip is under development and should be used with care:
+         Manager-only Ruby interface with persistent Python workers
+        _______  
+       /\______\ 
+      / /      / 
+     / / Cuby /   Dataset calculation
+     \/______/   
+                 
+/storage/praha1/home/tobiasma/miniconda3/envs/mace/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/auto/vestec1-elixir/home/tobiasma/rezac-lab/mace/mace/calculators/mace.py:207: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+WARNING:root:No dtype selected, switching to float64 to match model dtype.
+==========================================================================================
+name                                             E      Eref     error  error(%)
+------------------------------------------------------------------------------------------
+01 Water ... Water                          -5.008    -5.011     0.003     0.063
+02 Water ... MeOH                           -5.570    -5.701     0.131     2.300
+03 Water ... MeNH2                          -6.948    -7.036     0.088     1.253
+04 Water ... Peptide                        -8.092    -8.220     0.128     1.556
+05 MeOH ... MeOH                            -5.717    -5.851     0.134     2.295
+06 MeOH ... MeNH2                           -7.559    -7.666     0.107     1.396
+07 MeOH ... Peptide                         -8.317    -8.337     0.020     0.243
+08 MeOH ... Water                           -5.051    -5.087     0.036     0.711
+09 MeNH2 ... MeOH                           -3.021    -3.113     0.092     2.950
+10 MeNH2 ... MeNH2                          -4.045    -4.223     0.178     4.216
+11 MeNH2 ... Peptide                        -5.405    -5.480     0.075     1.374
+12 MeNH2 ... Water                          -7.244    -7.402     0.158     2.134
+13 Peptide ... MeOH                         -6.052    -6.282     0.230     3.658
+14 Peptide ... MeNH2                        -7.330    -7.561     0.231     3.059
+15 Peptide ... Peptide                      -8.574    -8.721     0.147     1.688
+16 Peptide ... Water                        -5.034    -5.199     0.165     3.169
+17 Uracil ... Uracil (BP)                  -16.534   -17.448     0.914     5.240
+18 Water ... Pyridine                       -6.766    -6.975     0.209     3.001
+19 MeOH ... Pyridine                        -7.384    -7.510     0.126     1.679
+20 AcOH ... AcOH                           -19.285   -19.415     0.130     0.669
+21 AcNH2 ... AcNH2                         -16.027   -16.525     0.498     3.012
+22 AcOH ... Uracil                         -19.034   -19.783     0.749     3.784
+23 AcNH2 ... Uracil                        -18.692   -19.467     0.775     3.983
+24 Benzene ... Benzene (pi-pi)              -2.750    -2.724    -0.026    -0.942
+25 Pyridine ... Pyridine (pi-pi)            -3.895    -3.801    -0.094    -2.476
+26 Uracil ... Uracil (pi-pi)               -10.016    -9.752    -0.264    -2.710
+27 Benzene ... Pyridine (pi-pi)             -3.422    -3.342    -0.080    -2.388
+28 Benzene ... Uracil (pi-pi)               -5.726    -5.593    -0.133    -2.379
+29 Pyridine ... Uracil (pi-pi)              -6.836    -6.701    -0.135    -2.014
+30 Benzene ... Ethene                       -1.132    -1.364     0.232    17.004
+31 Uracil ... Ethene                        -3.359    -3.329    -0.030    -0.903
+32 Uracil ... Ethyne                        -3.708    -3.693    -0.015    -0.408
+33 Pyridine ... Ethene                      -1.539    -1.805     0.266    14.723
+34 Pentane ... Pentane                      -3.856    -3.764    -0.092    -2.438
+35 Neopentane ... Pentane                   -2.704    -2.604    -0.100    -3.848
+36 Neopentane ... Neopentane                -1.893    -1.764    -0.129    -7.302
+37 Cyclopentane ... Neopentane              -2.519    -2.397    -0.122    -5.079
+38 Cyclopentane ... Cyclopentane            -3.050    -2.986    -0.064    -2.152
+39 Benzene ... Cyclopentane                 -3.595    -3.514    -0.081    -2.305
+40 Benzene ... Neopentane                   -2.997    -2.849    -0.148    -5.180
+41 Uracil ... Pentane                       -4.925    -4.811    -0.114    -2.363
+42 Uracil ... Cyclopentane                  -4.341    -4.091    -0.250    -6.099
+43 Uracil ... Neopentane                    -3.862    -3.689    -0.173    -4.680
+44 Ethene ... Pentane                       -1.828    -1.993     0.165     8.294
+45 Ethyne ... Pentane                       -1.621    -1.715     0.094     5.490
+46 Peptide ... Pentane                      -4.277    -4.256    -0.021    -0.496
+47 Benzene ... Benzene (TS)                 -2.691    -2.828     0.137     4.849
+48 Pyridine ... Pyridine (TS)               -3.355    -3.506     0.151     4.309
+49 Benzene ... Pyridine (TS)                -3.180    -3.293     0.113     3.431
+50 Benzene ... Ethyne (CH-pi)               -2.665    -2.857     0.192     6.732
+51 Ethyne ... Ethyne (TS)                   -1.604    -1.539    -0.065    -4.215
+52 Benzene ... AcOH (OH-pi)                 -4.589    -4.726     0.137     2.907
+53 Benzene ... AcNH2 (NH-pi)                -4.215    -4.405     0.190     4.309
+54 Benzene ... Water (OH-pi)                -3.354    -3.288    -0.066    -2.011
+55 Benzene ... MeOH (OH-pi)                 -4.271    -4.168    -0.103    -2.482
+56 Benzene ... MeNH2 (NH-pi)                -3.227    -3.199    -0.028    -0.874
+57 Benzene ... Peptide (NH-pi)              -5.285    -5.255    -0.030    -0.571
+58 Pyridine ... Pyridine (CH-N)             -3.811    -4.237     0.426    10.053
+59 Ethyne ... Water (CH-O)                  -2.842    -2.927     0.085     2.891
+60 Ethyne ... AcOH (OH-pi)                  -4.895    -4.966     0.071     1.437
+61 Pentane ... AcOH                         -2.704    -2.906     0.202     6.967
+62 Pentane ... AcNH2                        -3.457    -3.528     0.071     2.008
+63 Benzene ... AcOH                         -3.787    -3.747    -0.040    -1.065
+64 Peptide ... Ethene                       -2.891    -3.001     0.110     3.665
+65 Pyridine ... Ethyne                      -3.863    -4.104     0.241     5.881
+66 MeNH2 ... Pyridine                       -3.812    -3.966     0.154     3.887
+==========================================================================================
+RMSE                0.233   kcal/mol
+MUE                 0.163   kcal/mol
+------------------------------------------------------------------------------------------
+MSE                 0.090   kcal/mol
+min                -0.264   kcal/mol
+max                 0.914   kcal/mol
+range               1.179   kcal/mol
+min abs             0.003   kcal/mol
+max abs             0.914   kcal/mol
+==========================================================================================
+RMSE                4.582   %
+MUE                 3.480   %
+MSE                 1.438   %
+min                -7.302   %
+max                17.004   %
+range              24.306   %
+min abs             0.063   %
+max abs            17.004   %
+------------------------------------------------------------------------------------------
+RMSE/|avg|          4.243   %
+MUE/|avg|           2.966   %
+==========================================================================================
+Statistics for groups:
+H-bonds        (23) RMSE      0.338   MSE       0.232   kcal/mol
+dispersion     (23) RMSE      0.143   MSE      -0.057   kcal/mol
+others         (20) RMSE      0.159   MSE       0.097   kcal/mol
+--------------------------------------------------------------------------------
+H-bonds        RMSE/|avg|     3.73 %
+dispersion     RMSE/|avg|     3.99 %
+others         RMSE/|avg|     4.38 %
+==========================================================================================
+
