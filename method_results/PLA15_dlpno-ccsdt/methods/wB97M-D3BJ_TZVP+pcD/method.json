@@ -1,0 +1,11 @@
+{
+	"name":	"ωB97M-D3BJ/TZVP+pcD",
+	"category": "DFT",
+	"description": "TZ without dispersion + DFT with dispersion pair correction (ωB97M-D3BJ/TZVP+pcD)",
+	"references": [
+		"http://cuby4.molecular.cz/methods.html"
+	],
+	"code": [
+		"http://cuby4.molecular.cz/methods.html"
+	]
+}
