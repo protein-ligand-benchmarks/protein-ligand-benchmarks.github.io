@@ -1,0 +1,11 @@
+{
+	"name":	"UBio-MolFM-v1",
+	"category": "ML",
+	"description": "Molecular foundation model for larger bio-systems",
+	"references": [
+		"https://doi.org/10.48550/arXiv.2602.17709"
+	],
+	"code": [
+		"https://github.com/IQuestLab/UBio-MolFM"
+	]
+}

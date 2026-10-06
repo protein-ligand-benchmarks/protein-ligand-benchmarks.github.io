@@ -1,0 +1,111 @@
+WARNING: Interface mlip is under development and should be used with care:
+         Manager-only Ruby interface with persistent Python workers
+        _______  
+       /\______\ 
+      / /      / 
+     / / Cuby /   Dataset calculation
+     \/______/   
+                 
+2026-10-06 10:08:26.949 | INFO     | molfm.interface.model_interface:_setup_model:253 - Model ready | checkpoint=molfm-v1p5-stage-3.pt | config=config.yaml | head=omol25 | device=cpu | tf32=off | faiss=off | compile=off | recompute_budget=default
+==========================================================================================
+name                                             E      Eref     error  error(%)
+------------------------------------------------------------------------------------------
+01 Water ... Water                          -4.882    -5.011     0.129     2.578
+02 Water ... MeOH                           -5.480    -5.701     0.221     3.885
+03 Water ... MeNH2                          -6.993    -7.036     0.043     0.613
+04 Water ... Peptide                        -8.055    -8.220     0.165     2.005
+05 MeOH ... MeOH                            -5.665    -5.851     0.186     3.185
+06 MeOH ... MeNH2                           -7.606    -7.666     0.060     0.784
+07 MeOH ... Peptide                         -8.335    -8.337     0.002     0.025
+08 MeOH ... Water                           -4.978    -5.087     0.109     2.149
+09 MeNH2 ... MeOH                           -2.993    -3.113     0.120     3.859
+10 MeNH2 ... MeNH2                          -4.126    -4.223     0.097     2.295
+11 MeNH2 ... Peptide                        -5.565    -5.480    -0.085    -1.546
+12 MeNH2 ... Water                          -7.290    -7.402     0.112     1.517
+13 Peptide ... MeOH                         -6.062    -6.282     0.220     3.502
+14 Peptide ... MeNH2                        -7.470    -7.561     0.091     1.206
+15 Peptide ... Peptide                      -8.664    -8.721     0.057     0.648
+16 Peptide ... Water                        -5.005    -5.199     0.194     3.736
+17 Uracil ... Uracil (BP)                  -16.908   -17.448     0.540     3.094
+18 Water ... Pyridine                       -6.756    -6.975     0.219     3.139
+19 MeOH ... Pyridine                        -7.371    -7.510     0.139     1.855
+20 AcOH ... AcOH                           -19.673   -19.415    -0.258    -1.327
+21 AcNH2 ... AcNH2                         -16.171   -16.525     0.354     2.144
+22 AcOH ... Uracil                         -19.665   -19.783     0.118     0.595
+23 AcNH2 ... Uracil                        -19.041   -19.467     0.426     2.191
+24 Benzene ... Benzene (pi-pi)              -3.057    -2.724    -0.333   -12.238
+25 Pyridine ... Pyridine (pi-pi)            -4.071    -3.801    -0.270    -7.091
+26 Uracil ... Uracil (pi-pi)               -10.370    -9.752    -0.618    -6.334
+27 Benzene ... Pyridine (pi-pi)             -3.658    -3.342    -0.316    -9.441
+28 Benzene ... Uracil (pi-pi)               -5.938    -5.593    -0.345    -6.173
+29 Pyridine ... Uracil (pi-pi)              -6.894    -6.701    -0.193    -2.873
+30 Benzene ... Ethene                       -1.644    -1.364    -0.280   -20.560
+31 Uracil ... Ethene                        -3.504    -3.329    -0.175    -5.269
+32 Uracil ... Ethyne                        -4.033    -3.693    -0.340    -9.200
+33 Pyridine ... Ethene                      -1.867    -1.805    -0.062    -3.461
+34 Pentane ... Pentane                      -3.970    -3.764    -0.206    -5.470
+35 Neopentane ... Pentane                   -2.837    -2.604    -0.233    -8.964
+36 Neopentane ... Neopentane                -2.018    -1.764    -0.254   -14.402
+37 Cyclopentane ... Neopentane              -2.543    -2.397    -0.146    -6.093
+38 Cyclopentane ... Cyclopentane            -3.103    -2.986    -0.117    -3.923
+39 Benzene ... Cyclopentane                 -3.772    -3.514    -0.258    -7.338
+40 Benzene ... Neopentane                   -3.179    -2.849    -0.330   -11.600
+41 Uracil ... Pentane                       -5.165    -4.811    -0.354    -7.364
+42 Uracil ... Cyclopentane                  -4.448    -4.091    -0.357    -8.731
+43 Uracil ... Neopentane                    -4.094    -3.689    -0.405   -10.979
+44 Ethene ... Pentane                       -1.980    -1.993     0.013     0.635
+45 Ethyne ... Pentane                       -1.842    -1.715    -0.127    -7.412
+46 Peptide ... Pentane                      -4.453    -4.256    -0.197    -4.624
+47 Benzene ... Benzene (TS)                 -2.878    -2.828    -0.050    -1.754
+48 Pyridine ... Pyridine (TS)               -3.369    -3.506     0.137     3.898
+49 Benzene ... Pyridine (TS)                -3.377    -3.293    -0.084    -2.545
+50 Benzene ... Ethyne (CH-pi)               -2.845    -2.857     0.012     0.426
+51 Ethyne ... Ethyne (TS)                   -1.589    -1.539    -0.050    -3.258
+52 Benzene ... AcOH (OH-pi)                 -4.773    -4.726    -0.047    -0.987
+53 Benzene ... AcNH2 (NH-pi)                -4.293    -4.405     0.112     2.549
+54 Benzene ... Water (OH-pi)                -3.407    -3.288    -0.119    -3.626
+55 Benzene ... MeOH (OH-pi)                 -4.335    -4.168    -0.167    -3.996
+56 Benzene ... MeNH2 (NH-pi)                -3.361    -3.199    -0.162    -5.074
+57 Benzene ... Peptide (NH-pi)              -5.450    -5.255    -0.195    -3.717
+58 Pyridine ... Pyridine (CH-N)             -3.725    -4.237     0.512    12.084
+59 Ethyne ... Water (CH-O)                  -2.842    -2.927     0.085     2.901
+60 Ethyne ... AcOH (OH-pi)                  -5.160    -4.966    -0.194    -3.914
+61 Pentane ... AcOH                         -3.000    -2.906    -0.094    -3.237
+62 Pentane ... AcNH2                        -3.647    -3.528    -0.119    -3.375
+63 Benzene ... AcOH                         -4.053    -3.747    -0.306    -8.179
+64 Peptide ... Ethene                       -3.049    -3.001    -0.048    -1.592
+65 Pyridine ... Ethyne                      -3.969    -4.104     0.135     3.279
+66 MeNH2 ... Pyridine                       -3.844    -3.966     0.122     3.074
+==========================================================================================
+RMSE                0.232   kcal/mol
+MUE                 0.191   kcal/mol
+------------------------------------------------------------------------------------------
+MSE                -0.048   kcal/mol
+min                -0.618   kcal/mol
+max                 0.540   kcal/mol
+range               1.158   kcal/mol
+min abs             0.002   kcal/mol
+max abs             0.618   kcal/mol
+==========================================================================================
+RMSE                5.943   %
+MUE                 4.568   %
+MSE                -2.331   %
+min               -20.560   %
+max                12.084   %
+range              32.645   %
+min abs             0.025   %
+max abs            20.560   %
+------------------------------------------------------------------------------------------
+RMSE/|avg|          4.210   %
+MUE/|avg|           3.478   %
+==========================================================================================
+Statistics for groups:
+H-bonds        (23) RMSE      0.212   MSE       0.142   kcal/mol
+dispersion     (23) RMSE      0.287   MSE      -0.257   kcal/mol
+others         (20) RMSE      0.175   MSE      -0.026   kcal/mol
+--------------------------------------------------------------------------------
+H-bonds        RMSE/|avg|     2.34 %
+dispersion     RMSE/|avg|     8.00 %
+others         RMSE/|avg|     4.83 %
+==========================================================================================
+
